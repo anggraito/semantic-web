@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Leckerli+One|Open+Sans|Roboto');
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Leckerli One', cursive;*/
+*{
+	margin:0;
+	padding:0;
+  box-sizing: border-box;
+}
+body{
+  /*background-color: #000;*/
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background: url('../images/header.jpg')no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+  width: 100%;
+	/*text-align: center;*/
+}
+.text-header{
+  color: #fee;
+  font-size: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.text-header h1{
+  font-family: 'Leckerli One', cursive;
+  font-size: 105px;
+}
+.text-header .fancy{
+  text-align: center;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: 'Homemade Apple', cursive;
+}
+.text-header .fancy:after, .text-header .fancy:before{
+  background-color: #e0e1dc;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 10%;
+}
+.text-header .fancy:before{
+  right: 0.5em;
+  margin-left: -50%;
+}
+.text-header .fancy:after{
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/*section*/
+.wrap-top{
+  background: #f7f0f0;
+  padding: 30px 10px 40px 10px;
+}
+.wrap-top h3{
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.wrap-top ul{
+  margin-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.wrap-top li{
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: 'Leckerli One', cursive;
+  border: 1px solid rgba(180,128,107, 0.8);
+  border-radius: 15px;
+}
+.wrap-top li .fa{
+  font-size: 80px;
+  color: rgba(209,102,86, 0.8);
+}
+.wrap-top li:hover{
+  background-color: rgba(180,128,107, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+}
