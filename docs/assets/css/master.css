@@ -88,7 +88,7 @@ header{
 .text-header .fancy{
   text-align: center;
   overflow: hidden;
-  font-size: 22px;
+  font-size: 20px;
   font-family: 'Homemade Apple', cursive;
 }
 .text-header .fancy:after, .text-header .fancy:before{
@@ -102,11 +102,11 @@ header{
 }
 .text-header .fancy:before{
   right: 0.5em;
-  margin-left: -50%;
+  /*margin-left: -50%;*/
 }
 .text-header .fancy:after{
   left: 0.5em;
-  margin-right: -50%;
+  /*margin-right: -50%;*/
 }
 
 
