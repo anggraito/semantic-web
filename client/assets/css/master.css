@@ -6,7 +6,7 @@ font-family: 'Leckerli One', cursive;*/
 *{
 	margin:0;
 	padding:0;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 body{
   /*background-color: #000;*/
@@ -22,7 +22,7 @@ header{
 	/*text-align: center;*/
 }
 .text-header{
-  color: #fee;
+  color: #fff;
   font-size: bold;
   position: absolute;
   top: 50%;
@@ -31,12 +31,12 @@ header{
 }
 .text-header h1{
   font-family: 'Leckerli One', cursive;
-  font-size: 105px;
+  font-size: 550%;
 }
 .text-header .fancy{
   text-align: center;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Homemade Apple', cursive;
 }
 .text-header .fancy:after, .text-header .fancy:before{
@@ -57,12 +57,14 @@ header{
   margin-right: -50%;
 }
 
+
 /*section*/
 .wrap-top{
   background: #f7f0f0;
-  padding: 30px 10px 40px 10px;
+  padding: 5% 10px 40px 10px;
 }
 .wrap-top h3{
+  width: 100%;
   text-align: center;
   font-size: 22px;
   font-weight: bold;
@@ -81,13 +83,85 @@ header{
   padding-bottom: 5%;
   font-family: 'Leckerli One', cursive;
   border: 1px solid rgba(180,128,107, 0.8);
-  border-radius: 15px;
+  border-radius: 8px;
+  color: rgba(180,128,107, 0.8);
 }
 .wrap-top li .fa{
   font-size: 80px;
-  color: rgba(209,102,86, 0.8);
+  padding : 1rem;
 }
+
 .wrap-top li:hover{
   background-color: rgba(180,128,107, 0.8);
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
+}
+.wrap-top li .fa:hover{
+  font-size: 80px;
+  color: #fff;
+}
+.wrap-top .aboutus{
+  padding: 0 5%;
+  text-align: justify;
+}
+.info{
+  background-color: #f7f0f0;
+  padding-top: 5%;
+}
+.wrap-info{
+  padding: 0 5%;
+}
+.pets-baground{
+  background-image: url('/assets/images/pets.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  image-rendering: -webkit-optimize-contrast;
+}
+.info .box{
+  border: 1.5px solid rgba(180,128,107, 0.8);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 7%;
+  opacity: 0.8;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.image-thumbnail{
+  display: block;
+  line-height: 1.42857143;
+  margin-bottom: 20px;
+}
+.image-thumbnail .figure{
+  border-bottom: 1px solid #ddd;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover !important;
+  transition: opacity 0.2s;
+  height: 350px;
+  width: 100%;
+}
+.bungkus{
+  background-image: url('../assets/images/pets.png');
+}
+
+.bottom{
+  background-color: #322;
+  color: #fafafa;
+  text-align: center;
+  padding: 20px 5%;
+}
+.bottom .social-media-button li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px 10px;
+}
+.social-media-button li a{
+  color: #fff;
+}
+.social-media-button li i{
+  font-size: 22px;
 }
