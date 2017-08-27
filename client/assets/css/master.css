@@ -13,7 +13,10 @@ body{
   color: #222;
   font-family: 'Roboto', sans-serif;
 }
-
+#content{
+	padding:0;
+	display:none;
+}
 /*animate button cool*/
 .boxs {
   position:relative;
@@ -210,6 +213,9 @@ header{
 }
 .social-media-button li a{
   color: #fff;
+}
+.social-media-button li a:hover{
+	color: #d65;
 }
 .social-media-button li i{
   font-size: 22px;
